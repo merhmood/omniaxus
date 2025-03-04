@@ -3,8 +3,11 @@ import { StaticImageData } from "next/image";
 type ProductType = {
   id: string;
   image: string | StaticImageData;
+  subImages: [string, string, string, string];
   title: string;
-  link: string;
+  description: string;
+  link?: string;
+  sellerLink?: string;
 };
 
 type Props = {

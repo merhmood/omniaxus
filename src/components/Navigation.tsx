@@ -24,7 +24,11 @@ const Navigation: React.FC = () => {
     link === "Home" ? "/" : `/${link.toLowerCase()}`;
 
   return (
-    <header className=" fixed top-0 w-full z-10 bg-white pb-8">
+    <header
+      className={` fixed top-0 w-full z-10 bg-white ${
+        pathNameLength < 3 && "pb-8"
+      }`}
+    >
       <section className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-center mt-14 mx-auto max-w-6xl w-5/6">
         <h2
           className={`${ollifiaPoettry.className} text-2xl lg:text-4xl text-center lg:text-left`}

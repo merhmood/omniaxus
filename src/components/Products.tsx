@@ -77,7 +77,7 @@ const Products: React.FC = () => {
         {renderedProducts.length > 0 ? (
           renderedProducts.map((product, index) => (
             <section key={index} className="basis-80 mb-10">
-              <Link href={product.link} target="_blank">
+              <Link href={product.link ? product.link : ""}>
                 <div className="relative h-44 mb-3">
                   <Image
                     src={product.image}

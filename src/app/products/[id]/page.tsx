@@ -1,19 +1,16 @@
-import { Metadata } from "next";
+import React from "react";
+import { Props } from "@/types";
 
+import Product from "@/components/Product";
 import Navigation from "@/components/Navigation";
-import Articles from "@/components/Products";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
-  title: "Omniaxus | Products",
-};
-
-export default function Page() {
+export default function page({ params, searchParams }: Props) {
   return (
     <main className="flex flex-col justify-between h-screen">
       <div>
         <Navigation />
-        <Articles />
+        <Product />
       </div>
       <Footer />
     </main>

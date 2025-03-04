@@ -2,9 +2,15 @@
   "products": [
     {
       "id": "0191ad8a-41d1-70b8-987c-0c9eb485c4ac",
-      "image": "/articles/how-to-secure-funding-from-venture-capitalists-a-comprehensive-guide.jpg",
+      "image": "/products/how-to-secure-funding-from-venture-capitalists-a-comprehensive-guide.jpg",
+      "subImages": [
+        "/products/how-to-secure-funding-from-venture-capitalists-a-comprehensive-guide.jpg",
+        "/products/glasses.png"
+      ],
       "title": "How to Secure Funding from Venture Capitalists: A Comprehensive Guide",
-      "link": "#"
+      "description": "How to Secure Funding from Venture Capitalists: A Comprehensive Guide, Funding from Venture Capitalists: A Comprehensive Guide, Funding from Venture Capitalists: A Comprehensive Guide, Funding from Venture Capitalists: A Comprehensive Guide",
+      "link": "/products/0191ad8a-41d1-70b8-987c-0c9eb485c4ac",
+      "sellerLink": "#"
     }
   ]
 }
