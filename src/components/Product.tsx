@@ -42,7 +42,7 @@ const Product = () => {
           <div className="max-w-4xl mx-auto p-4">
             <button
               onClick={goBack}
-              className="flex items-center gap-2 text-black px-4 py-2 rounded-md hover:text-gray-700 transition"
+              className="flex items-center gap-2 text-black mb-6 rounded-md hover:text-gray-700 transition"
             >
               <ArrowLeftIcon className="h-5 w-5" />
               Go Back
@@ -77,7 +77,11 @@ const Product = () => {
                 ))}
               </div>
             </div>
-
+            <div className="mt-4">
+              <p className="text-2xl lg:text-4xl font-medium">
+                ${product?.price}
+              </p>
+            </div>
             {/* Buy Button */}
             <div className="mt-4 mb-10">
               <a

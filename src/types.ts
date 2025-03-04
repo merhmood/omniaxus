@@ -5,9 +5,10 @@ type ProductType = {
   image: string | StaticImageData;
   subImages: [string, string, string, string];
   title: string;
+  price: string;
   description: string;
-  link?: string;
-  sellerLink?: string;
+  link: string;
+  sellerLink: string;
 };
 
 type Props = {

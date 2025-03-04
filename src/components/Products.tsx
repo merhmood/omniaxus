@@ -90,6 +90,9 @@ const Products: React.FC = () => {
                 <p className="text-blue-700 text-sm lg:text-base hover:font-medium">
                   {product.title}
                 </p>
+                <p className="text-base lg:text-lg font-medium mt-3 text-right">
+                  ${product.price}
+                </p>
               </Link>
             </section>
           ))
